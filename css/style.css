@@ -53,9 +53,9 @@ header{
 nav{
 	display:inline-block;
 	position:absolute;
-	left:1200px;
+	left:1100px;
 	top:50px;
-
+	width:400px;
 
 }
 nav a{
@@ -584,4 +584,43 @@ section article #more2{
 }
 section article #more2 .bolded{
 	font-weight:900;
+}
+#o-meni{
+	width:100%;
+	height:600px;
+	position:relative;
+	background-color:#e8e8e8;
+}
+#o-meni .mojaslika{
+	width:350px;
+	height:420px;
+	margin-left:100px;
+	margin-top:50px;
+	display:inline-block;
+}
+#o-meni h2{
+	text-align:center;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size:35px;
+	padding-top:20px;
+}
+#o-meni .mojaslika img{
+	width:100%;
+	height:100%;
+}
+#o-meni .tekstic{
+	width:700px;
+	height:350px;
+	background-color:silver;
+	display:inline-block;
+	position:absolute;
+	top:140px;
+	left:500px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight:bold;
+	text-indent: 50px;
+	word-spacing: 5px;
+	line-height: 1.2;
+	font-size:18px;
+	background-color:white;
 }
