@@ -90,6 +90,7 @@ nav a:hover{
 	font-weight:900;
 	animation-name: animacija;
 	animation-duration: 5s;
+	animation-iteration-count:infinite; 
 	
 }
 @keyframes animacija {
